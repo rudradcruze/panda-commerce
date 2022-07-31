@@ -5,7 +5,8 @@ html {
 }
 
 * {
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -17,4 +18,73 @@ a {
     -o-transition: all .3s ease;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
 /* Reusable Components */
+
+/* Header Section */
+
+#header .nav_control {
+    padding: 50px 0;
+}
+
+#header .nav_control img {
+    width: 100%;
+}
+
+#header .nav_control #navbarSupportedContent {
+    padding-left: 5.6rem;
+}
+
+
+#header .nav_control #navbarSupportedContent form {
+    position: relative;
+}
+
+#header .nav_control #navbarSupportedContent form input {
+    background: #F1F1F1;
+    width: 50rem;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+}
+
+#header .nav_control #navbarSupportedContent form input::placeholder {
+    color: #CCCCCC;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+#header .nav_control #navbarSupportedContent form button {
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    border: 0;
+    padding: 0;
+    font-size: 2rem;
+    color: #BABABA;
+}
+
+#header .nav_control #navbarSupportedContent .navbar-nav li.nav-item a.nav-link {
+    color: #707070;
+    font-weight: 400;
+    font-size: 1.6rem;
+    padding: 0 1.5rem;
+}
+
+#header .nav_control #navbarSupportedContent .navbar-nav li.nav-item a.nav-link:hover {
+    color: #1F1F1F;
+}
