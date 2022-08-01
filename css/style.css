@@ -88,3 +88,50 @@ body {
 #header .nav_control #navbarSupportedContent .navbar-nav li.nav-item a.nav-link:hover {
     color: #1F1F1F;
 }
+
+/* Slider Section */
+
+#sliderSection #carouselExampleControls {
+    background: #FEEAE9;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 4.6rem;
+}
+
+#sliderSection #carouselExampleControls h1 {
+    font-weight: 700;
+    font-size: 5.6rem;
+    line-height: 8.4rem;
+    color: #1F1F1F;
+}
+
+#sliderSection #carouselExampleControls p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #4E4E4E;
+}
+
+#sliderSection #carouselExampleControls h2 {
+    font-weight: 500;
+    font-size: 4.1rem;
+    line-height: 6.2rem;
+    color: #FF136F;
+}
+
+#sliderSection #carouselExampleControls a.btn_primary_control {
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border: none;
+    padding: 1.5rem 2.3rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #FFFFFF;
+}
+
+#sliderSection #carouselExampleControls img {
+    width: 85% !important;
+}
